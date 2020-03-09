@@ -62,7 +62,7 @@ li{
 
 /* about */
 #about{
-  height:150vh;
+  height:170vh;
 }
 
 .bg-about{
@@ -117,9 +117,6 @@ height:150vh;
   padding-top:40px;
 }
 
-.visible-sp{
-  display:none;
-}
 
 
 
@@ -178,8 +175,5 @@ footer{
   }
   /* experience */
   /* contact */
-  .visible-sp{
-    display:none;
-  }
   /* footer */
 }
