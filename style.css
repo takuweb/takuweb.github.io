@@ -12,6 +12,7 @@
 header,#about,#experience,#contact{
   background-image: url(image/ishan-seefromthesky-qE1Y8GQKhEk-unsplash.jpg);
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   position:relative;
 }
