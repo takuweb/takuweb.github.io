@@ -67,7 +67,7 @@ li{
 
 .bg-about{
 background-color: rgba(0,0,255,0.1);
-height:150vh;
+height:170vh;
 }
 #about h2{
   font-size:40px;
@@ -170,6 +170,9 @@ footer{
   }
 
   /* about */
+  #about,.bg-about{
+    height:220vh;
+  }
   #about h2{
     font-size:30px;
   }
