@@ -13,7 +13,6 @@ header,#about,#experience,#contact{
   background-image: url(image/ishan-seefromthesky-qE1Y8GQKhEk-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   background-attachment: fixed;
   position:relative;
 }
@@ -114,6 +113,8 @@ height:170vh;
   min-width: 60px;
   min-height: 60px;
 }
+
+
 .follow{
   padding-top:40px;
 }
