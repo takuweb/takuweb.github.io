@@ -12,7 +12,6 @@
 header,#about,#experience,#contact{
   background-image: url(image/ishan-seefromthesky-qE1Y8GQKhEk-unsplash.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   position:relative;
 }
@@ -62,12 +61,12 @@ li{
 
 /* about */
 #about{
-  height:170vh;
+  height:175vh;
 }
 
 .bg-about{
 background-color: rgba(0,0,255,0.1);
-height:170vh;
+height:175vh;
 }
 #about h2{
   font-size:40px;
@@ -79,13 +78,16 @@ height:170vh;
 
 /* experience */
 #experience{
-  height:200vh;
+  height:300vh;
 }
 
 .bg-experience{
   background-color:rgba(255,0,0,0.2);
-  height:200vh;
+  height:300vh;
 }
+
+
+
 #experience img{
   height:40vh;
   width:70vh;
@@ -97,6 +99,19 @@ height:170vh;
 #experience img:hover{
   opacity:0.6;
 }
+
+#big-img{
+  position:fixed;
+  height:500px;
+  width:500px;
+  box-shadow:10px 10px 10px 5px rgb(165, 168, 162);
+}
+
+#timer{
+  font-size:50px;
+  font-weight:bold;
+}
+
 /* contact */
 #contact{
   height:80vh;
@@ -113,25 +128,9 @@ height:170vh;
   min-width: 60px;
   min-height: 60px;
 }
-
-#contact p{
-  padding-bottom: 40px;
+.follow{
+  padding-top:40px;
 }
-.twitter{
-  display: block;
-  margin:0 auto 20px;
-  width:60px;
-  height:60px;
-}
-
-.twitter-follow-button{
-  margin:40px 0 40px;
-  background-color: rgb(66, 182, 247);
-  border-radius: 3px;
-  color:white;
-}
-
-
 
 
 
@@ -184,9 +183,6 @@ footer{
   }
 
   /* about */
-  #about,.bg-about{
-    height:220vh;
-  }
   #about h2{
     font-size:30px;
   }
